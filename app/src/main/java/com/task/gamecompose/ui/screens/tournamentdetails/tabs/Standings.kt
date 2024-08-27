@@ -31,6 +31,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -41,9 +42,14 @@ import com.task.gamecompose.ui.screens.tournamentdetails.components.RankList
 
 
 @Composable
-fun StandingsScreen(){
-    Column (modifier = Modifier.fillMaxSize().background(colorResource(id = R.color.background)).
-    padding(16.dp).verticalScroll(rememberScrollState())){
+fun StandingsScreen() {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(id = R.color.background))
+            .padding(16.dp)
+            .verticalScroll(rememberScrollState())
+    ) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -58,34 +64,44 @@ fun StandingsScreen(){
                         .weight(1f)
                         .fillMaxHeight()
                 ) {
-                    Box(contentAlignment = Alignment.BottomCenter
-                        , modifier = Modifier.
-                        weight(1f)) {
+                    Box(
+                        contentAlignment = Alignment.BottomCenter, modifier = Modifier.weight(1f)
+                    ) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Image(painter = painterResource(id = R.drawable.frame_2609267), contentDescription = "2nd place",
+                            Image(
+                                painter = painterResource(id = R.drawable.frame_2609267),
+                                contentDescription = "2nd place",
                                 modifier = Modifier
                                     .size(60.dp)
-                                    .align(Alignment.CenterHorizontally))
+                                    .align(Alignment.CenterHorizontally)
+                            )
                             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                                 Text(
                                     text = "Legend Gamer",
                                     fontSize = 16.sp,
                                     color = Color.White,
-                                    modifier = Modifier.padding(start = 8.dp)
+                                    modifier = Modifier.padding(start = 8.dp),
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
                                 )
                                 Text(
                                     text = "G Rank- 1123",
                                     fontSize = 12.sp,
                                     color = Color.White,
-                                    modifier = Modifier.padding(start = 8.dp)
+                                    modifier = Modifier.padding(start = 8.dp),
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
                                 )
                             }
-                            Image(painter = painterResource(id = R.drawable.group_1214), contentDescription = "2nd place",
+                            Image(
+                                painter = painterResource(id = R.drawable.group_1214),
+                                contentDescription = "2nd place",
                                 modifier = Modifier
                                     .align(Alignment.CenterHorizontally)
                                     .fillMaxWidth()
-                                    .offset(x=15.dp)
-                            , contentScale = ContentScale.Crop)
+                                    .offset(x = 15.dp),
+                                contentScale = ContentScale.Crop
+                            )
                         }
                     }
                 }
@@ -95,34 +111,45 @@ fun StandingsScreen(){
                         .fillMaxHeight()
                         .zIndex(1f)
                 ) {
-                    Box(contentAlignment = Alignment.BottomCenter
-                        , modifier = Modifier.
-                        weight(1f)
-                            .zIndex(1f)) {
+                    Box(
+                        contentAlignment = Alignment.BottomCenter, modifier = Modifier
+                            .weight(1f)
+                            .zIndex(1f)
+                    ) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Image(painter = painterResource(id = R.drawable.frame_2609267), contentDescription = "2nd place",
+                            Image(
+                                painter = painterResource(id = R.drawable.frame_2609267),
+                                contentDescription = "2nd place",
                                 modifier = Modifier
                                     .size(60.dp)
-                                    .align(Alignment.CenterHorizontally))
+                                    .align(Alignment.CenterHorizontally)
+                            )
                             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                                 Text(
                                     text = "Legend Gamer",
                                     fontSize = 16.sp,
                                     color = Color.White,
-                                    modifier = Modifier.padding(start = 8.dp)
+                                    modifier = Modifier.padding(start = 8.dp),
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
                                 )
                                 Text(
                                     text = "G Rank- 1123",
                                     fontSize = 12.sp,
                                     color = Color.White,
-                                    modifier = Modifier.padding(start = 8.dp)
+                                    modifier = Modifier.padding(start = 8.dp),
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
                                 )
                             }
-                            Image(painter = painterResource(id = R.drawable.group_1212), contentDescription = "2nd place",
+                            Image(
+                                painter = painterResource(id = R.drawable.group_1212),
+                                contentDescription = "2nd place",
                                 modifier = Modifier
                                     .align(Alignment.CenterHorizontally)
-                                    .fillMaxWidth()
-                                , contentScale = ContentScale.Crop)
+                                    .fillMaxWidth(),
+                                contentScale = ContentScale.Crop
+                            )
                         }
                     }
                 }
@@ -131,34 +158,44 @@ fun StandingsScreen(){
                         .weight(1f)
                         .fillMaxHeight()
                 ) {
-                    Box(contentAlignment = Alignment.BottomCenter
-                        , modifier = Modifier.
-                        weight(1f)) {
+                    Box(
+                        contentAlignment = Alignment.BottomCenter, modifier = Modifier.weight(1f)
+                    ) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Image(painter = painterResource(id = R.drawable.frame_2609267), contentDescription = "2nd place",
+                            Image(
+                                painter = painterResource(id = R.drawable.frame_2609267),
+                                contentDescription = "2nd place",
                                 modifier = Modifier
                                     .size(60.dp)
-                                    .align(Alignment.CenterHorizontally))
+                                    .align(Alignment.CenterHorizontally)
+                            )
                             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                                 Text(
                                     text = "Legend Gamer",
                                     fontSize = 16.sp,
                                     color = Color.White,
-                                    modifier = Modifier.padding(start = 8.dp)
+                                    modifier = Modifier.padding(start = 8.dp),
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
                                 )
                                 Text(
                                     text = "G Rank- 1123",
                                     fontSize = 12.sp,
                                     color = Color.White,
-                                    modifier = Modifier.padding(start = 8.dp)
+                                    modifier = Modifier.padding(start = 8.dp), maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
+
                                 )
                             }
-                            Image(painter = painterResource(id = R.drawable.group_1213), contentDescription = "2nd place",
+                            Image(
+                                painter = painterResource(id = R.drawable.group_1213),
+                                contentDescription = "2nd place",
                                 modifier = Modifier
                                     .align(Alignment.CenterHorizontally)
                                     .fillMaxWidth()
-                                    .offset(x= (-20).dp)
-                                , contentScale = ContentScale.FillWidth)
+                                    .offset(x = (-20).dp),
+                                contentScale = ContentScale.FillWidth
+                            )
                         }
                     }
                 }

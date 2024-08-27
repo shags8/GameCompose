@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -31,12 +32,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.task.gamecompose.R
 import com.task.gamecompose.ui.components.TopBar
 import com.task.gamecompose.ui.screens.tournaments.components.MyTournamentCardList
@@ -131,7 +135,7 @@ fun TournamentScreen(navController: NavHostController) {
                 },
                 modifier = Modifier
                     .padding(end = 5.dp)
-                    .fillMaxWidth(0.70f)
+                    .weight(1f)
                     .background(color = colorResource(id = R.color.background))
                     .border(
                         width = 1.dp,
@@ -165,17 +169,25 @@ fun TournamentScreen(navController: NavHostController) {
             Button(
                 onClick = { /*TODO: Add action*/ },
                 modifier = Modifier
-                    .align(Alignment.CenterVertically),
+                    .align(Alignment.CenterVertically)
+                    .wrapContentWidth()
+                    .fillMaxHeight(),
                 shape = RoundedCornerShape(12.dp), // Rounded corners
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color(0xFF01B752), // Dark green background color
                     contentColor = Color.White // White text color
                 ),
             ) {
-                Text(text="+Create",
-                    fontSize = 16.sp)
+                Text(text="+Create", maxLines = 1)
             }
         }
         MyTournamentCardList(navController)
     }
+}
+
+@Preview
+@Composable
+fun TournamentScreenPreview() {
+    val navController = rememberNavController()
+    TournamentScreen(navController)
 }

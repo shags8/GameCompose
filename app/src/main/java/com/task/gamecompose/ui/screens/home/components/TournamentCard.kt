@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
@@ -43,7 +44,7 @@ fun TournamentCard(image: Painter, heading1: String, date: String, entry: String
                 color = colorResource(id = R.color.grey),
                 shape = RoundedCornerShape(10.dp)
             )
-            .height(290.dp),
+            .wrapContentHeight(),
         shape = RoundedCornerShape(10.dp),
         colors = CardDefaults.cardColors(containerColor = colorResource(id = R.color.background)),
         elevation = CardDefaults.elevatedCardElevation(4.dp)
@@ -139,6 +140,7 @@ fun TournamentCard(image: Painter, heading1: String, date: String, entry: String
                 }
             }
         }
+        Spacer(modifier = Modifier.height(3.dp))
     }
 }
 

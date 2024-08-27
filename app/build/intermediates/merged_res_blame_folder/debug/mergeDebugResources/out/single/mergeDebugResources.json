@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_clarity_group_solid.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/clarity_group_solid.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_frame_2609003.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/frame_2609003.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_frame_2609475.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/frame_2609475.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_dot_active.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/dot_active.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_image_133.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/image_133.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_group_1213.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/group_1213.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_image_127.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/image_127.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_fluent_home_48_filled.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/fluent_home_48_filled.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_mingcute_notification_fill.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/mingcute_notification_fill.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_icon_park_outline_ranking.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/icon_park_outline_ranking.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_openmoji_timer.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/openmoji_timer.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_ph_arrow_up_bold.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/ph_arrow_up_bold.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_dot_inactive.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/dot_inactive.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_twemoji_trophy.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/twemoji_trophy.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_image_124.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/image_124.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/xml_data_extraction_rules.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_solar_cup_bold.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/solar_cup_bold.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_frame_2608994.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/frame_2608994.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_image_132.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/image_132.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_group_1212.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/group_1212.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/xml_backup_rules.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_twemoji_coin.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/twemoji_coin.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_mingcute_search_line.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/mingcute_search_line.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_image_121.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/image_121.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_frame_2609267.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/frame_2609267.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_frame_2609248.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/frame_2609248.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.task.gamecompose.app-main-52:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_carbon_user_avatar_filled.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/carbon_user_avatar_filled.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_frame_2608995.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/frame_2608995.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_solar_stream_bold.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/solar_stream_bold.xml"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_image_131.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/image_131.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_image_136.png.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/image_136.png"
+    },
+    {
+        "merged": "com.task.gamecompose.app-debug-50:/drawable_group_1214.xml.flat",
+        "source": "com.task.gamecompose.app-main-52:/drawable/group_1214.xml"
+    }
+]
